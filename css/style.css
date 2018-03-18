@@ -9,11 +9,70 @@ body {
   background: grey;
   font-family: 'Courier New', Courier, monospace;
   font-size: 1em;
-
+  width: 80%;
+  overflow: visible;
 }
 
 header {
 
-  height: 15%;
+  height: 5%;
+  padding: 3%;
+  text-align: center;
+
+}
+
+header a {
+
+  padding: 5%;
+}
+
+h1 {
+
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.firstpar {
+
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+
+}
+
+.firstpar img {
+
+  float: inherit;
+  padding-right: 2%;
+
+}
+
+.secondpar {
+
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+  height: 50%;
   
 }
+
+.secondpar img {
+
+  float: right;
+  clear: right;
+  overflow: auto;
+}
+
+.secondpar ul li {
+
+  padding: 1%;
+}
+
+footer {
+
+  font-size: 1.2em;
+  margin: auto;
+  width: 80%;
+}
+
